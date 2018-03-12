@@ -12,7 +12,7 @@ import pit.kos.process.annotation.ProcessConfiguration;
 import pit.kos.process.annotation.UseProcessFlow;
 
 /**
- * @author Potr Kosmala
+ * @author Piotr Kosmala
  *
  */
 public abstract class ConfigurationProcess {

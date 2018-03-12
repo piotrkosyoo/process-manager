@@ -5,7 +5,7 @@ import pit.kos.process.annotation.ProcessBefore;
 import pit.kos.process.annotation.UseProcessFlow;
 
 /**
- * @author Potr Kosmala
+ * @author Piotr Kosmala
  *
  */
 @UseProcessFlow(configuration="databases")

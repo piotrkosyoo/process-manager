@@ -5,7 +5,7 @@ import pit.kos.process.annotation.ProcessConfiguration;
 import pit.kos.process.configuration.ConfigurationProcess;
 
 /**
- * @author Potr Kosmala
+ * @author Piotr Kosmala
  *
  */
 @ProcessConfiguration(configuration = "databases")
