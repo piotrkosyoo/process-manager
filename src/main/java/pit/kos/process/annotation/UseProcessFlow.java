@@ -12,8 +12,12 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
 import java.lang.annotation.Retention;
 import java.lang.annotation.Target;
 
+/**
+ * @author Piotr Kosmala
+ *
+ */
 @Retention(RUNTIME)
 @Target({ TYPE, FIELD, METHOD, PARAMETER, CONSTRUCTOR, LOCAL_VARIABLE, ANNOTATION_TYPE })
 public @interface UseProcessFlow {
-	public String definition();
+	public String configuration();
 }

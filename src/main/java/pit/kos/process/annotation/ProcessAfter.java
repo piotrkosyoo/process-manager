@@ -15,12 +15,9 @@ import java.lang.annotation.Target;
 
 @Retention(RUNTIME)
 @Target({ FIELD , METHOD, CONSTRUCTOR, LOCAL_VARIABLE, PARAMETER})
+
 /**
- * @author yogibubu
- * 
-	public int priority() default 1;
-	public Class<Object> typeIn() default Object.class;
-	public Class<Object> typeOut() default Object.class;
+ * @author Piotr Kosmala
  *
  */
 public @interface ProcessAfter{

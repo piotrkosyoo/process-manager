@@ -9,8 +9,12 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
 import java.lang.annotation.Retention;
 import java.lang.annotation.Target;
 
+/**
+ * @author Piotr Kosmala
+ *
+ */
 @Retention(RUNTIME)
 @Target({ FIELD, METHOD, PARAMETER, LOCAL_VARIABLE })
-public @interface Process {
+public @interface ProcessDef {
 	public String id();
 }

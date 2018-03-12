@@ -11,11 +11,8 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.Target;
 
 /**
- * @author yogibubu
+ * @author Piotr Kosmala
  *
-	public int priority() default 1;
-	public Class<Object> typeIn() default Object.class;
-	public Class<Object> typeOut() default Object.class;
  */
 @Retention(RUNTIME)
 @Target({ FIELD, METHOD, CONSTRUCTOR, LOCAL_VARIABLE, PARAMETER })
